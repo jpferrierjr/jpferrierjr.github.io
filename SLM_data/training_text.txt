@@ -1,0 +1,77 @@
+**I.  Basic Information & Career Overview**
+<PAD>
+* **Personal Introduction:**
+    Who is John Ferrier?
+    Dr. John Ferrier is a condensed matter physicist and a veteran of the United States Air Force.
+    John has served in the United States Air Force for 6 years as an electronic warfare expert.
+    John's expertise in electronic warfare was in infrared and laser defense systems for C-130 aircraft.
+    John served in Operation Iraqi Freedom (OIF) in Iraq and Operation Enduring Freedom (OEF) in Afghanistan.
+    John has worked in science for 12 years. He has also served in leadership roles for over 10 years.
+    John is a recipient of the National Science Fellowship.
+    Dr. John Ferrier has expertise in computational physics, experimental condensed matter physics, and machine learning. His contributions to the scientific community include thermodynamic simulations of how 2D quantum materials form in Chemical Vapor Deposition (CVD) systems. To accomplish this, John utilized quantum chemistry techniques with Density Functional Theory (DFT). He also exploited the gradient nature of Deep Neural Networks (DNN) to guide experimental work by training DNN systems on the Raman response outputs from experiment derived samples.
+    A fun-fact about John is that he is an avid drone pilot, photographer, and videographer. John spends most of his free time tinkering in his home-based maker space and playing video games.
+    Another fun-fact about John is that he is exceptionally skilled at designing high-power computers. His skills even led to him winning a computer building context in 2017 on the YouTube show Linus Tech tips.
+
+    *  Your name, preferred title (e.g., Software Engineer, Data Scientist)
+    *  A concise and engaging summary of your professional identity (elevator pitch).  This should capture your core skills and what you're most passionate about.
+    *  Location preferences (if any) and willingness to relocate
+* **Career History:** 
+    * For each role (most recent to earliest):
+        * Job title, company, dates of employment
+        * 2-3 bullet points summarizing key responsibilities and achievements (quantify whenever possible!)
+* **Skills:**
+    *  Technical Skills: Programming languages, software, tools, platforms (be specific with versions, frameworks, etc.)
+    *  Business Skills: Project management, communication, leadership, problem-solving, etc.  (Provide examples of how you've demonstrated these)
+* **Industries:** List industries you've worked in and your familiarity with each.
+
+**II.  Project Deep Dives**
+
+* **Select 3-5 key projects that showcase your abilities.** For each project:
+    * Project Title and Context: Briefly describe the project's purpose and your role.
+    * Challenges: What were the technical or business challenges you faced?
+    * Solutions: How did you approach and overcome those challenges?
+    * Outcomes/Results: Quantify your successes (e.g., "increased efficiency by 15%", "reduced costs by $X").
+    * Technologies Used:  List the specific technologies you employed.
+
+**III.  Professional Interests and Goals**
+
+* What are your areas of expertise?
+* What are you most passionate about in your work?
+* What are your career goals (short-term and long-term)?
+* What type of work environment do you thrive in? (e.g., fast-paced, collaborative, independent)
+* What are you looking for in your next role? (e.g., opportunities for growth, challenging projects, specific technologies)
+
+**IV.  Education and Certifications**
+
+* Degrees earned, university, major, graduation year
+* Relevant certifications (include dates earned)
+* Online courses or other professional development (especially if relevant to current technologies)
+
+**V.  "Personality" and Communication Style**
+
+* **This is important for a chatbot to feel natural.**
+    *  Write examples of how you would answer common interview questions (e.g., "Tell me about yourself," "What are your strengths and weaknesses?")
+    *  Include your preferred communication style (formal/informal, direct/indirect).
+    *  If you have a portfolio or website, provide the link.
+
+**VI.  Refine for a Conversational Flow**
+
+* **Anticipate recruiter questions:**
+    * Brainstorm common recruiter questions (e.g., "What's your salary expectation?", "Why are you interested in this role?") and provide clear, concise answers.
+* **Vary your responses:**  
+    *  Don't make all your answers the same length or format. Include a mix of short and detailed responses.
+* **Add personality:**  
+    * Inject some of your personality into your answers to make the chatbot interactions more engaging.
+
+**Important Considerations:**
+
+* **Data Privacy:** Be mindful of including any sensitive personal information that you wouldn't want shared widely.
+* **Bias:** Review your training data to ensure it's free of any biases that could unfairly influence recruiter decisions.
+* **Regular Updates:** Your professional life will evolve, so make sure to update the training data periodically to keep your chatbot current.
+
+**Tools and Technologies:**
+
+* You could explore language model frameworks like Hugging Face Transformers, which provide pre-trained models and tools for fine-tuning on custom datasets.
+* For chatbot development, consider platforms like Dialogflow or Rasa, which offer tools for building conversational interfaces.
+
+By carefully crafting your training data, you can create a chatbot that accurately and effectively represents your professional profile to potential employers. Good luck!
