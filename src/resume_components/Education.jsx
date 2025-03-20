@@ -22,29 +22,29 @@ export default function EducationPage()
         var dissHTML = "";
         var row_sp = "row-span-3";
         if(edu.dissertation){
-            dissHTML = <p className="Dissertation text-slate-800 text-base"><a href={edu.dissertation_link} target="_blank" rel="noopener noreferrer" className="underline">{edu.dissertation}</a></p>;
+            dissHTML = <p className="Dissertation text-slate-800 text-sm md:text-base"><a href={edu.dissertation_link} target="_blank" rel="noopener noreferrer" className="underline">{edu.dissertation}</a></p>;
             row_sp = "row-span-4";
         }
         const row_sp_cn = row_sp+" px-4 justify-center items-center"
         return( 
         <div key={edu.id} className="py-4 container mx-auto ">
-            <div class="grid grid-cols-[100px_1fr]">
-                <div class={row_sp_cn}>
-                    <div><img src={edu.school_image} className="hidden md:flex justify-center items-center w-full" alt="School Logo" /> </div>
+            <div className="grid grid-rows-2 md:grid-cols-[100px_1fr]">
+                <div className={row_sp_cn}>
+                    <div><img src={edu.school_image} className="hidden md:flex justify-center items-center w-16 h-16" alt="School Logo" /> </div>
                 </div>
 
-                <div className="block md:flex SchoolNameDate justify-between font-bold text-lg">
+                <div className="block md:flex SchoolNameDate justify-between font-bold text-base md:text-lg">
                     <div className="SchoolName">{edu.school}</div>
                     <div className="SchoolDate">{edu.start}-{edu.end}</div>
                 </div>
 
-                <div className="Degree text-base italic text-slate-700 font-bold" style={{color: edu.text_secondary}}>
+                <div className="Degree text-sm md:text-base italic text-slate-700 font-bold" style={{color: edu.text_secondary}}>
                     {edu.degree}
                 </div>
                 
                 {dissHTML}
                 
-                <div className='text-gray-500 text-base'>
+                <div className='text-gray-500 text-sm md:text-base'>
                     {edu.associations.map( (assoc, idx) => {
                         const isLast = idx === edu.associations.length - 1;
                         return (
@@ -59,7 +59,7 @@ export default function EducationPage()
     });
     return(
         <>
-            <div className="text-3xl">Education</div>
+            <div className="text-2xl md:text-3xl">Education</div>
             <div className="text-pretty">
                 {EducationList}
             </div>

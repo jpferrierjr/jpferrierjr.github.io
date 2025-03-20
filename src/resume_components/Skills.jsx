@@ -77,7 +77,22 @@ export const subskills = [
     { id:69, skill:'Adobe Photoshop' },
     { id:70, skill:'Adobe Illustrator' },
     { id:71, skill:'Microcontroller Development' },
-    { id:72, skill:'OpenCV' }
+    { id:72, skill:'OpenCV' },
+    { id:73, skill:'Safety & Compliance' },
+    { id:74, skill:'Conflict Resolution' },
+    { id:75, skill:'Grant Spending Management' },
+    { id:76, skill:'Tailwind CSS' },
+    { id:77, skill:'Large Scale Complex Problem Solving' },
+    { id:78, skill:'Teaching/Training' },
+    { id:79, skill:'Electrodynamics' },
+    { id:80, skill:'LabView' },
+    { id:81, skill:'Qt' },
+    { id:82, skill:'Blender3D' },
+    { id:83, skill:'Mathematical Modeling' },
+    { id:84, skill:'Organization' },
+    { id:85, skill:'Cell Culture' },
+    { id:86, skill:'LMFit' },
+    { id:87, skill:'Shell Scripting' }
 ]
 
 //Collection of all skills to allow for connection to projects
@@ -87,11 +102,15 @@ export const skills = [
     { title: 'Computational Physics', id: 3, subskills:[ 17, 18, 19, 20 ] },
     { title: 'Machine Learning', id: 4, subskills:[ 21, 22, 23, 24, 25, 26, 27 ] },
     { title: 'Condensed Matter Physics', id: 5, subskills:[ 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ] },
-    { title: 'Web Development', id: 6, subskills:[ 42, 43, 44, 45, 46, 47, 48, 49, 50 ] },
+    { title: 'Web Development', id: 6, subskills:[ 42, 43, 44, 45, 46, 47, 48, 49, 50, 76 ] },
     { title: 'Software Engineering', id: 7, subskills:[ 51, 52, 53, 54, 55 ] },
-    { title: 'Electrical Engineering', id: 8, subskills:[ 56, 57, 58, 71 ] },
+    { title: 'Electrical Engineering', id: 8, subskills:[ 56, 57, 58, 71, 80 ] },
     { title: 'Computer Design', id: 9, subskills:[ 59, 60, 61, 62, 63, 64, 65 ] },
     { title: 'Photography and Videography', id: 10, subskills:[ 67, 68, 69, 70 ] },
+    { title: 'Leadership', id: 11, subskills:[ 73, 74, 75, 77, 78 ] },
+    { title: 'Theoretical Physics', id: 12, subskills:[17,18,19,20,79] },
+    { title: 'Electronic Warfare', id: 13, subskills:[79,58] },
+    { title: 'Biophysics', id: 14, subskills:[16,85] }
 ];
 
 

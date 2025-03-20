@@ -2,8 +2,8 @@ export default function AboutPage()
 {
     return(
         <>
-            <div className="text-3xl">About John</div>
-            <div className="text-pretty">
+            <div className="text-2xl md:text-3xl">About John</div>
+            <div className="text-pretty text-sm md:text-base py-4">
                 <p className="indent-8">John is decorated veteran of the United States Air Force, serving in both Iraq (OIF) and Afghanistan (OEF), and is a National Science Fellow. His expertise is in experimental <a href="https://en.wikipedia.org/wiki/Condensed_matter_physics" target="_blank" className="underline" rel="noopener noreferrer">condensed matter physics</a> with a strong background in computational physics and machine learning.
                 His PhD work focused on utilizing Quantum Chemistry (<a href="https://en.wikipedia.org/wiki/Density_functional_theory" target="_blank" className="underline" rel="noopener noreferrer">Density Functional Theory</a>) simulations to predict the thermodynamic
                 limitations of <a href="https://www.nature.com/collections/jehfiahbeb" target="_blank" className="underline" rel="noopener noreferrer">2D quantum material</a> synthesis in a Chemical Vapor Deposition (<a href="https://en.wikipedia.org/wiki/Chemical_vapor_deposition" target="_blank" className="underline" rel="noopener noreferrer">CVD</a>) system. John has worked on materials such

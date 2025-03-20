@@ -6,6 +6,9 @@ import SkillsCard from "./resume_components/Skills";
 import HomePage from './Home';
 import Navigation from './Navigation';
 
+
+
+
 function App() {
   return (
     <>

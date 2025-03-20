@@ -1,6 +1,14 @@
 
 import { useState } from "react";
 
+function scrollTo( el )
+{
+    const element = document.getElementById( el );
+    element?.scrollIntoView({
+        behavior: 'smooth'
+    });
+}
+
 export default function Navigation() {
     const [isNavOpen, setIsNavOpen] = useState(false);
     return (<>
@@ -22,7 +30,7 @@ export default function Navigation() {
                         </svg>
                     </button>
                 </div>
-                <div className={isNavOpen ? "block w-screen h-screen z-50" : "hidden"}>
+                <div className={isNavOpen ? "absolute w-screen h-screen z-50 bg-slate-900 top-0 left-0 py-10" : "hidden"}>
                     <div className="absolute top-0 right-0 px-8 py-8" onClick={() => setIsNavOpen(false)}>
                         <svg
                             className="h-8 w-8 text-gray-600"
@@ -38,14 +46,14 @@ export default function Navigation() {
                     </div>
                     <ul className="inline-block w-full py-8">
                         <li className="p-4 hover:bg-green-200 hover:text-slate-900"><a href='/'>Home</a></li>
-                        <li className="p-4 hover:bg-green-200 hover:text-slate-900"><a href='/publications'>Publications</a></li>
+                        <li className="p-4 hover:bg-green-200 hover:text-slate-900"><button onClick={() => { scrollTo('Publications'); setIsNavOpen(false);}}>Publications</button></li>
                         <li className="p-4 hover:bg-green-200 hover:text-slate-900"><a href='/projects'>Projects</a></li>
                         <li className="p-4 hover:bg-green-200 hover:text-slate-900"><a href='/skills'>Skillsets</a></li>
                     </ul>
                 </div>
                 <ul className="hidden md:flex w-full justify-end">
                     <li className="p-4 hover:bg-green-200 hover:text-slate-900"><a href='/'>Home</a></li>
-                    <li className="p-4 hover:bg-green-200 hover:text-slate-900"><a href='/publications'>Publications</a></li>
+                    <li className="p-4 hover:bg-green-200 hover:text-slate-900"><button onClick={() => {scrollTo('Publications');} }>Publications</button></li>
                     <li className="p-4 hover:bg-green-200 hover:text-slate-900"><a href='/projects'>Projects</a></li>
                     <li className="p-4 hover:bg-green-200 hover:text-slate-900"><a href='/skills'>Skillsets</a></li>
                 </ul>
@@ -53,3 +61,5 @@ export default function Navigation() {
         </nav>
     </>);
 }
+
+// <li className="p-4 hover:bg-green-200 hover:text-slate-900"><a href='/publications'>Publications</a></li>

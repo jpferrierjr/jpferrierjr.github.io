@@ -10,6 +10,7 @@ import ProjectsPage from "./resume_components/Projects";
 import OutreachPage from "./resume_components/Outreach";
 import AwardsPage from "./resume_components/Awards";
 import { OrcIDLink, ScholarLink } from "./resume_components/Publications";
+import PatentsPage from "./resume_components/Patents";
 
 export default function HomePage() {
     const curr_year = new Date().getFullYear();
@@ -85,7 +86,7 @@ export default function HomePage() {
                 <ExperiencePage />
             </div>
             <hr className="p-4"/>
-            <div className="Publications py-4">
+            <div id="Publications" className="Publications py-4">
                 <PublicationsPage />
             </div>
             <hr className="p-4"/>
@@ -95,6 +96,10 @@ export default function HomePage() {
             <hr className="p-4"/>
             <div className="Projects py-4">
                 <ProjectsPage />
+            </div>
+            <hr className="p-4"/>
+            <div className="Patents py-4">
+                <PatentsPage />
             </div>
             <hr className="p-4"/>
             <div className="Outreach py-4">

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@huggingface/transformers": "^3.2.1",
+    "@react-pdf/renderer": "^4.1.6",
     "autoprefixer": "^10.4.20",
     "axios": "^1.7.9",
     "cheerio": "^1.0.0",
