@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from "react-icons/fa";
-import { FaBluesky, FaSquareThreads, FaOrcid, FaGoogleScholar } from "react-icons/fa6";
+import { FaBluesky, FaSquareThreads, FaOrcid, FaGoogleScholar  } from "react-icons/fa6";
+import { SiMedium } from "react-icons/si";
 
 import AboutPage from "./About";
 import EducationPage from "./resume_components/Education";
@@ -28,6 +29,7 @@ export default function HomePage() {
     const FBstyle = { color: "#4267B2", fontSize: iconSizes }
     const GSstyle = { color: "#666666", fontSize: iconSizes }
     const OIstyle = { color: "#A6CE39", fontSize: iconSizes }
+    const MEstyle = { color: "#000000", fontSize: iconSizes }
     return (
     <>
         <div className="p-8 block content-center border shadow-md mt-4">
@@ -62,10 +64,13 @@ export default function HomePage() {
                             <a href="https://github.com/jpferrierjr" target="_blank" rel="noopener noreferrer"><FaGithubSquare style={GHstyle} /></a>
                         </span>
                         <span className="px-2 md:px-4">
+                            <a href="https://medium.com/@john-ferrier" target="_blank" rel="noopener noreferrer"><SiMedium  style={MEstyle} /></a>
+                        </span>
+                        <span className="px-2 md:px-4">
                             <a href="https://bsky.app/profile/jpferrierjr.bsky.social" target="_blank" rel="noopener noreferrer"><FaBluesky style={BSstyle} /></a>
                         </span>
                         <span className="px-2 md:px-4">
-                            <a href="https://www.threads.net/@johnny_fit_pants" target="_blank" rel="noopener noreferrer"><FaSquareThreads style={Thstyle} /></a>
+                            <a href="https://www.threads.net/@physicistdrferrier" target="_blank" rel="noopener noreferrer"><FaSquareThreads style={Thstyle} /></a>
                         </span>
                         <span className="px-2 md:px-4">
                             <a href="https://www.facebook.com/jpferrierjr" target="_blank" rel="noopener noreferrer"><FaFacebookSquare style={FBstyle} /></a>
